@@ -14,5 +14,9 @@ mkcd() {
 	cd "$*"
 }
 
+afor() {
+	alias | grep -w "$*" | sort
+}
+
 export CLICOLOR
 
