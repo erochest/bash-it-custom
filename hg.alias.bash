@@ -14,3 +14,7 @@ alias hcl='hg clone'
 alias hs='hg status'
 alias hsum='hg hummary'
 
+hg-help() {
+	afor hg
+}
+
