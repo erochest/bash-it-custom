@@ -1,0 +1,8 @@
+
+GOROOT=$HOME/src/go
+GOOS=darwin
+GOARCH=amd64
+GOBIN=$GOROOT/bin
+
+export GOROOT GOOS GOARCH GOBIN
+

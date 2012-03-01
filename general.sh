@@ -1,0 +1,5 @@
+
+CLICOLOR=1
+
+export CLICOLOR
+
