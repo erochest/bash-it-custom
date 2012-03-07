@@ -6,3 +6,5 @@ alias mv='mv -i'
 alias ll='ls -laF'
 alias j='jobs -l'
 
+alias p='~/bin/pause'
+
