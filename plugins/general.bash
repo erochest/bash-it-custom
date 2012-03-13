@@ -1,6 +1,6 @@
 
 CLICOLOR=1
-PATH=$HOME/bin:/usr/local/bin:$PATH
+PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
 ff() { find . -name "$@" -print; }
 lll() { ls -laF "$@" | less; }
