@@ -1,4 +1,8 @@
 
+# Needed after doing
+# > brew install ec2-api-tools
+# > brew install ec2-ami-tools
+
 #export JAVA_HOME="$(/usr/libexec/java_home)"
 
 if [ -d $HOME/.ec2 ] ; then
