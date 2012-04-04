@@ -22,25 +22,26 @@ alias slabaws="ssh -l err8n 23.21.98.97"
 
 function host-ls() {
 	cat <<EOF
-sds1   => sds-deployer@sds1.itc.virginia.edu
-sds3   => sds-deployer@sds3.itc.virginia.edu
-sds4   => sds-deployer@sds4.itc.virginia.edu
-sds5   => sds-deployer@sds5.itc.virginia.edu
-sds6   => sds-deployer@sds6.itc.virginia.edu
-sds7   => sds-deployer@sds7.itc.virginia.edu
-sds8   => sds-deployer@sds8.itc.virginia.edu
+sds1    => sds-deployer@sds1.itc.virginia.edu
+sds3    => sds-deployer@sds3.itc.virginia.edu
+sds4    => sds-deployer@sds4.itc.virginia.edu
+sds5    => sds-deployer@sds5.itc.virginia.edu
+sds6    => sds-deployer@sds6.itc.virginia.edu
+sds7    => sds-deployer@sds7.itc.virginia.edu
+sds8    => sds-deployer@sds8.itc.virginia.edu
 
-blue   => blue.unix.virginia.edu
-utm    => utm.lib.virginia.edu
-lat    => lat.lib.virginia.edu
-lon    => lon.lib.virginia.edu
+blue    => blue.unix.virginia.edu
+utm     => utm.lib.virginia.edu
+lat     => lat.lib.virginia.edu
+lon     => lon.lib.virginia.edu
 
-aleph  => aleph.lib.virginia.edu
-omeka  => omekadev.lib.virginia.edu
-gisdev => gisdev.lib.virginia.edu
-gis2   => gis2.lib.virginia.edu
+aleph   => aleph.lib.virginia.edu
+omeka   => omekadev.lib.virginia.edu
+gisdev  => gisdev.lib.virginia.edu
+gis2    => gis2.lib.virginia.edu
 
-slice  => err8n@67.23.31.99
+slice   => err8n@67.23.31.99
+slabaws => err8n@23.21.98.97
 EOF
 }
 
