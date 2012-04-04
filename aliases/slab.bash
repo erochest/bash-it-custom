@@ -18,6 +18,7 @@ alias gisdev="ssh gisdev.lib.virginia.edu"
 alias gis2="ssh gis2.lib.virginia.edu"
 
 alias slice="ssh err8n@67.23.31.99 -p 7822"
+alias slabaws="ssh -l err8n 23.21.98.97"
 
 function host-ls() {
 	cat <<EOF
