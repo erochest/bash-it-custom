@@ -50,3 +50,7 @@ function git-help() {
 	alias | grep -w git | sort
 }
 
+function git-outgoing() {
+	git log --branches --not --remotes
+}
+
