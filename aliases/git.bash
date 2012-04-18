@@ -45,12 +45,9 @@ alias gs='git status'
 alias gss='git status -s'
 alias gst='git status'
 alias gup='git fetch && git rebase'
+alias gout='git log --branches --not --remotes'
 
 function git-help() {
 	alias | grep -w git | sort
-}
-
-function git-outgoing() {
-	git log --branches --not --remotes
 }
 
