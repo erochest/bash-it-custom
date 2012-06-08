@@ -11,6 +11,7 @@ alias gfl='git flow'
 # alias gl='git log'
 alias gm='git commit -m'
 alias gma='git commit -am'
+alias gam='git commit --amend'
 # alias gp='git push'
 # alias gpu='git pull'
 alias gra='git remote add'
@@ -46,6 +47,7 @@ alias gss='git status -s'
 alias gst='git status'
 alias gup='git fetch && git rebase'
 alias gout='git log --branches --not --remotes'
+alias gx='git annex'
 
 function git-help() {
 	alias | grep -w git | sort
