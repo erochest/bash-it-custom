@@ -43,6 +43,7 @@ alias gmu='git fetch origin -v; git fetch upstream -v; git merge upstream/master
 alias gp='git push'
 alias gpo='git push origin'
 alias gs='git status'
+alias gsb='git status -sb'
 alias gss='git status -s'
 alias gst='git status'
 alias gup='git fetch && git rebase'
