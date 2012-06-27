@@ -1,3 +1,3 @@
 
-alias hsact='source .hsenv/bin/activate'
+alias hsact='source .hsenv_$(basename $(pwd))/bin/activate'
 
