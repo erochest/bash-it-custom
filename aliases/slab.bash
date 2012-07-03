@@ -18,7 +18,10 @@ alias gisdev="ssh gisdev.lib.virginia.edu"
 alias gis2="ssh gis2.lib.virginia.edu"
 
 alias slice="ssh err8n@67.23.31.99 -p 7822"
-alias slabaws="ssh -l err8n 23.21.98.97"
+alias aws="ssh -l err8n 23.21.98.97"
+alias aws1="ssh -l err8n ec2-23-22-150-224.compute-1.amazonaws.com"
+alias aws2="ssh -l err8n ec2-23-20-16-165.compute-1.amazonaws.com"
+alias aws3="ssh -l err8n ec2-23-20-137-97.compute-1.amazonaws.com"
 
 function host-ls() {
 	cat <<EOF
